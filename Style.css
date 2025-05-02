@@ -1,0 +1,22 @@
+.container-grid {
+    display: block; text-align: center; background-color: green; padding: 5px; 
+}
+
+.nav-list {
+    display: inline-flex; list-style-type: none; text-indent: 10px;
+}
+
+.nav-list > a {
+    color: white; text-decoration: none;
+}
+
+.nav-list > a:hover{
+    color: aquamarine; transition: 0.7s;
+}
+
+.nav-list:visited {
+    color: white;
+}
+
+.nav-menu { display: none;}
+
